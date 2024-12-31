@@ -3,15 +3,15 @@ name := "spark-sqs-receiver"
 
 organization := "io.lingk"
 
-version := "2.0.0"
+version := "3.0.0"
 
-scalaVersion := "2.12.13"
+scalaVersion := "2.12.20"
 
-crossScalaVersions := Seq("2.12.13")
+crossScalaVersions := Seq("2.12.20")
 
-libraryDependencies += "org.apache.spark" %% "spark-core" % "3.2.0" % Provided
+libraryDependencies += "org.apache.spark" %% "spark-core" % "3.5.3" % Provided
 
-libraryDependencies += "org.apache.spark" %% "spark-streaming" % "3.2.0" % Provided
+libraryDependencies += "org.apache.spark" %% "spark-streaming" % "3.5.3" % Provided
 
 libraryDependencies += "com.amazonaws" % "aws-java-sdk-sqs" % "1.11.937"
 
