@@ -3,7 +3,7 @@ name := "spark-sqs-receiver"
 
 organization := "io.lingk"
 
-version := "3.0.0"
+version := "1.5.0"
 
 scalaVersion := "2.12.20"
 
